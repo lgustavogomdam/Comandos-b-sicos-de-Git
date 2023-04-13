@@ -327,23 +327,18 @@ Variações: https://git-scm.com/docs/git-log/pt_BR
 
 > ** git diff **   
 ```
-Mostra mudanças entre commits, commit e árvore de trabalho, etc (recomenda-se ler e aprofundar-se mais pois é um tanto quanto complexo).Variações: https://git-scm.com/docs/git-diff/pt_BRLink de estudo didático (Sugestão): https://www.youtube.com/watch?v=cJwKvQv4gTA```
-
-
-
-
-
-
-## Administração
+Mostra mudanças entre commits, commit e árvore de trabalho, etc (recomenda-se ler e aprofundar-se mais pois é um tanto quanto complexo).Variações: https://git-scm.com/docs/git-diff/pt_BRLink de estudo didático (Sugestão): https://www.youtube.com/watch?v=cJwKvQv4gTA
+```
 
 > ** git reflog **  
 ```
-Mostra informações dos commits de forma sucinta.Variações: https://git-scm.com/docs/git-reflog/pt_BR```
+Mostra informações dos commits de forma sucinta.Variações: https://git-scm.com/docs/git-reflog/pt_BR
+```
+
+## Administração
 
 
-
-
-> ** limpe ** 
+> ** git clean ** 
 ```
 Remove arquivos não rastreados da árvore de trabalho.
 
@@ -365,4 +360,44 @@ Cria o arquivo gitignore no diretório.
 Variações: https://git-scm.com/docs/git-gitignore/pt_BR
 ```
 
+> **git config --global user.email "< seuEmail@dominio.com >"**
+```
+Define seu email como o email especificado(nos commits aparecerá seu email e seu nome).
 
+Variações: https://git-scm.com/book/pt-br/v2/Começando-Configuração-Inicial-do-Git
+```
+
+> **git config --global user.name "< seu_nome >"**
+```
+Define seu nome como o nome especificado(nos commits aparecerá seu email e seu nome).
+
+Variações: https://git-scm.com/book/pt-br/v2/Começando-Configuração-Inicial-do-Git
+```
+
+> **git config --global --unset user.email**
+```
+Exclui seu email que antes fora especificado.
+
+Créditos: https://medium.com/@yuribrasil_73050/limpar-credenciais-72cf6cf29197
+```
+
+> **git config --global --unset user.name**
+```
+Exclui seu nome que antes fora especificado.
+
+Créditos: https://medium.com/@yuribrasil_73050/limpar-credenciais-72cf6cf29197
+```
+
+> **git config --global --unset credential.helper**
+```
+Limpar as informações de credenciais globais guardadas.
+
+Créditos: https://medium.com/@yuribrasil_73050/limpar-credenciais-72cf6cf29197
+```
+
+> **git config --system --unset credential.helper**
+```
+Apagar as informações de credenciais contidas no sistema(se fizer isso terá que fazer login novamente no github ao enviar um projeto).
+
+Créditos: https://medium.com/@yuribrasil_73050/limpar-credenciais-72cf6cf29197
+```
