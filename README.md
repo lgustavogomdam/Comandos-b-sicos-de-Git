@@ -1,8 +1,11 @@
 ﻿
 # Tutorial Git
 Autor: Luiz Gustavo Gomes Damasceno
- Instagram: <https://www.instagram.com/recurscire/>
+
+Instagram: <https://www.instagram.com/recurscire/>
+
 Linkedin: <https://www.linkedin.com/in/lgustavogomdam/>
+
 GitHub: <https://github.com/lgustavogomdam>
 
 #### Comandos Básicos de Git para facilitar seu dia-a-dia :)
